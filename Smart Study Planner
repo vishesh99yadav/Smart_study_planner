@@ -1,10 +1,10 @@
 import json
-from datetime import dateTime
+from datetime import datetime
 import time 
 
 # CLASSES
 
-class student:
+class Student:
 def __init__(self, name, course, university);
 self.name = name 
 self.course = course
