@@ -1,1 +1,14 @@
+import json
+from datetime import dateTime
+import time 
 
+# CLASSES
+
+class student:
+def __init__(self, name, course, university);
+self.name = name 
+self.course = course
+self.university = university
+
+def to_dict()self:
+return self.__dict__
