@@ -10,5 +10,16 @@ self.name = name
 self.course = course
 self.university = university
 
-def to_dict()self:
+def to_dict(self):
+return self.__dict__
+
+class Subject;
+def __init__(self, name, diffculty, exam__date, weak=false, hours_done=0):
+self.name = name 
+self.difficulty = difficulty
+self.exam_date = exam_date
+self.weak =weak
+self.hours_done = hour_done
+
+def to_dict(self):
 return self.__dict__
