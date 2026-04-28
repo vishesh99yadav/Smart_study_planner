@@ -10,4 +10,4 @@ def log(self):
   print("Subject not found\n")
   def history_view(self):
     print("\n    HISTORY         ")
-    for hin self.history:
+    for h in self.history:
