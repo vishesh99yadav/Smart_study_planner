@@ -4,5 +4,6 @@ def load_users(self):
       return json.load(f)
   except:
     return{}
-      
-      
+def save_users(self):
+  with open("user.json",encoding="utf-8")as f:
+    json.dump(self.users,f, indent=4)
