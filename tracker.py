@@ -17,7 +17,7 @@ for s in self.subjects:
       "date": str(datetime.today().date()),
       "time":datetime.now().strftime(%H:%M:%S)})  
     self.save_date()
-    print("SUbject NOt found")
+    print("Subject Not found\n")
     def history_view(self):
       print("\n         HISTORY            ")
       for h in self.history:
