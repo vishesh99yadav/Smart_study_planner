@@ -18,11 +18,11 @@ def login_system(self):
   print("2. Login Existing user")
   print("3. Exit")
 
-choice = input("\n Enter your choice ")
+choice = input("\n Enter your choice:")
 
-if choice = "1":
-    print("\n Register NEW users")
-  name = input("Enter username:")
+if choice == "1":
+    print("\n REGISTER NEW USER")
+    name = input("Enter username:")
     if name is self.uders:
       print("User alredy exists\n")
       continue
