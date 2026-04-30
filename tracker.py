@@ -18,7 +18,7 @@ for s in self.subjects:
       "time":datetime.now().strftime(%H:%M:%S)})  
     self.save_date()
     print(f"{hours}hours logged Successfully\n")
-    return;
+    return
     print("Subject Not found\n")
     def history_view(self):
       print("\n         HISTORY            ")
