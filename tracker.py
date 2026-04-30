@@ -10,5 +10,5 @@ def log(self):
 
 for s in self.subject:
   if s.name.lower() == name.lower():
-    s.hour_done =+ hour
+    s.hours_done =+ hours
     self.history.append()  
