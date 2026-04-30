@@ -12,8 +12,8 @@ for s in self.subjects:
   if s.name.lower() == name.lower():
     s.hours_done =+ hours
     self.history.append({
-      "subject"s.name,
-      "hours":hours
+      "subject":s.name,
+      "hours":hours,
       "date": str(datetime.today().date())
       "time":datetime.now().strtime(%H:%M:%S)}
     
