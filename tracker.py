@@ -14,8 +14,5 @@ for s in self.subjects:
     self.history.append({
       "subject":s.name,
       "hours":hours,
-      "date": str(datetime.today().date())
-      "time":datetime.now().strtime(%H:%M:%S)}
-    
-                       
-                       )  
+      "date": str(datetime.today().date()),
+      "time":datetime.now().strftime(%H:%M:%S)})  
