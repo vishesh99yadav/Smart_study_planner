@@ -17,3 +17,17 @@ def login_system(self):
   print("1. Register New User")
   print("2. Login Existing user")
   print("3. Exit")
+
+choice = input("\n Enter your choice ")
+
+if choice = "1":
+    print("\n Register NEW users")
+  name = input("Enter username:")
+    if name is self.uders:
+      print("User alredy exists\n")
+      continue
+    pssword=input("Create password:")
+    self.users{name}= password
+    self.save_users()
+    printf(User '{name}' registered successfully!\m")
+
