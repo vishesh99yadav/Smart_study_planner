@@ -8,7 +8,7 @@ def log(self):
     print("invalid input! Please enter number like 2 or 2.5\n")
     return
 
-for s in self.subject:
+for s in self.subjects:
   if s.name.lower() == name.lower():
     s.hours_done =+ hours
     self.history.append()  
