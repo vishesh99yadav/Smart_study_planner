@@ -11,7 +11,7 @@ def login_system(self):
   self.users=self.load_users()
 
   while True:
-  printf("\n" + "="*60)
+  print("\n" + "="*60)
   print("USER AUTHENTICATION SYSTEM")
   print("="*60)
   print("1. Register New User")
