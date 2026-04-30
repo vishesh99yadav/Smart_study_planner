@@ -16,3 +16,9 @@ for s in self.subjects:
       "hours":hours,
       "date": str(datetime.today().date()),
       "time":datetime.now().strftime(%H:%M:%S)})  
+    self.save_date()
+    print("SUbject NOt found")
+    def history_view(self):
+      print("\n         HISTORY            ")
+      for h in self.history:
+        print(f"{h[date]}{h['time']} {h['subject]} ({[hour']} hrs)")
