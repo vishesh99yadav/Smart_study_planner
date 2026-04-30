@@ -23,4 +23,4 @@ for s in self.subjects:
     def history_view(self):
       print("\n         HISTORY            ")
       for h in self.history:
-        print(f"{h[date]}{h['time']} {h['subject]} ({[hour']} hrs)")
+        print(f"{h['date']}{h['time']} {h['subject']} ({['hour']} hrs)")
