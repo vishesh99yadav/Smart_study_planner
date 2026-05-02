@@ -29,5 +29,14 @@ if choice == "1":
     password=input("Create password:")
     self.users[name]= password
     self.save_users()
-    print(f"User'{name}'registered successfully!\m")
+    print(f"User'{name}'registered successfully!\n")
+elif choice=="2.
+print("/n LOGIN USER")
+name=input("Username:")
+password=input("Password:)
+
+if name in self.user and self.users[name]==password:
+   print(f"\n Welcome {name}!Login successful.\n")
+   self.gile=f"{name}.json"
+   self.student=student9name,"","")
 
