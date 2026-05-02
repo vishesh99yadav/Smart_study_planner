@@ -23,11 +23,11 @@ choice = input("\n Enter your choice:")
 if choice == "1":
     print("\n REGISTER NEW USER")
     name = input("Enter username:")
-    if name is self.uders:
-      print("User alredy exists\n")
+    if name in self.users:
+      print("User already exists!\n")
       continue
-    pssword=input("Create password:")
-    self.users{name}= password
+    password=input("Create password:")
+    self.users[name]= password
     self.save_users()
-    printf(User '{name}' registered successfully!\m")
+    print(f"User'{name}'registered successfully!\m")
 
