@@ -27,4 +27,4 @@ for s in self.subjects:
      def graph(self):
         print("\n        GRAPH        ")
         for s in self.subjects:
-            print(f"{s.name}: {' '*round(s.hour_done)}")
+            print(f"{s.name}: {' '*round(s.hours_done)}")
