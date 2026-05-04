@@ -24,7 +24,7 @@ for s in self.subjects:
       print("\n         HISTORY            ")
       for h in self.history:
         print(f"{h['date']}{h['time']} {h['subject']} ({h['hours']} hrs)")
-     def graph(self)
+     def graph(self):
         print("\n        GRAPH        ")
-        for s in self.subject:
+        for s in self.subjects:
             print(f"{s.name}: {' '*round(s.hour_done)}")
