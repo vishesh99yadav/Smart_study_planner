@@ -30,13 +30,17 @@ if choice == "1":
     self.users[name]= password
     self.save_users()
     print(f"User'{name}'registered successfully!\n")
-elif choice=="2.
+elif choice=="2".
 print("/n LOGIN USER")
 name=input("Username:")
-password=input("Password:)
+password=input("Password:")
 
-if name in self.user and self.users[name]==password:
+if name in self.users and self.users[name]==password:
    print(f"\n Welcome {name}!Login successful.\n")
-   self.gile=f"{name}.json"
-   self.student=student9name,"","")
-
+   self.file=f"{name}.json"
+   self.student=student(name,"","")
+   self.history = []
+   self.subjects = self.load_data()
+   break
+ else:
+   print("Invalid credentials!\n")
