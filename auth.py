@@ -24,27 +24,27 @@ def login_system(self):
         print("\n REGISTER NEW USER")
         name = input("Enter username:")
         if name in self.users:
-            print("User already exists!\n")
-            continue
+           print("User already exists!\n")
+           continue
         password=input("Create password:")
         self.users[name]= password
         self.save_users()
         print(f"User'{name}'registered successfully!\n")
     elif choice == "2":
-        print("/n LOGIN USER")
+        print("\n LOGIN USER")
         name=input("Username:")
         password=input("Password:")
 
         if name in self.users and self.users[name]==password:
             print(f"\n Welcome {name}!Login successful.\n")
             self.file = f"{name}.json"
-            self.student = student(name,"","")
+            self.student = Student(name,"","")
             self.history = []
             self.subjects = self.load_data()
             break
-         else:
+        else:
             print("Invalid credentials!\n")
-     elif choice == "3":
+    elif choice == "3":
         print("Existing...")
         sys.exit()
 
