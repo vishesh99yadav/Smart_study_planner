@@ -48,7 +48,7 @@ def login_system(self):
         print("Existing...")
         sys.exit()
 
-     else:
+    else:
         print("Invalid option!\n")
 def switch_user(self):
   print("\nSWITCH USER MODE ACTIVATED")
