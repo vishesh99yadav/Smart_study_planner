@@ -49,10 +49,10 @@ def login_system(self):
     sys.exit()
 
    else:
-     print("INnvalid option!\n")
+     print("Invalid option!\n")
 def switch_user(self):
   print("\nSWITCH USER MODE ACTIVATED")
-  self.save_dta()
+  self.save_data()
 print("Logging out...\n")
 self.login_system()
 
