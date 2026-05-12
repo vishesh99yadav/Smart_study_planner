@@ -45,7 +45,7 @@ def login_system(self):
         else:
             print("Invalid credentials!\n")
     elif choice == "3":
-        print("Existing...")
+        print("Exiting...")
         sys.exit()
 
     else:
